@@ -6,9 +6,9 @@ A FastAPI-based service for financial risk classification using machine learning
 
 -  FastAPI REST endpoints for model inference
 -  Option to load model from local file or MLflow
--  Trained with Random Forest and XGBoost
+-  Trained with Random Forest ( and XGBoost, in process)
 -  Containerized with Docker for deployment
--  Ready for Render deployment(in process)
+-  Ready for Render deployment (in process)
 
 ## 🧠 Model Loading Logic
 
