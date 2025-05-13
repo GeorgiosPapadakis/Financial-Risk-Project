@@ -8,7 +8,7 @@ A FastAPI-based service for financial risk classification using machine learning
 -  Option to load model from local file or MLflow
 -  Trained with Random Forest ( and XGBoost, in process)
 -  Containerized with Docker for deployment
--  Ready for Render deployment (in process)
+-  Render deployed at https://financial-risk-project.onrender.com/docs
 
 ## 🧠 Model Loading Logic
 
