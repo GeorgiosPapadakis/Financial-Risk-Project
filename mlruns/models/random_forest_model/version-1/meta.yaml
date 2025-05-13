@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746302314722
+current_stage: None
+description: ''
+last_updated_timestamp: 1746302314722
+name: random_forest_model
+run_id: 3c4f3ec2d48c449687f4b500a57e125a
+run_link: ''
+source: file:///C:/Users/giorg/Desktop/Financial%20Risk%20Project/mlruns/0/3c4f3ec2d48c449687f4b500a57e125a/artifacts/random_forest_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/giorg/Desktop/Financial%20Risk%20Project/mlruns/0/3c4f3ec2d48c449687f4b500a57e125a/artifacts/random_forest_model
+user_id: null
+version: 1

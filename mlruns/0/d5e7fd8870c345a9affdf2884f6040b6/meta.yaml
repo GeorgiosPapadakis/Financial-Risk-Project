@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/giorg/Desktop/Financial%20Risk%20Project/mlruns/0/d5e7fd8870c345a9affdf2884f6040b6/artifacts
+end_time: 1746299382871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5e7fd8870c345a9affdf2884f6040b6
+run_name: RandomForest_Run
+run_uuid: d5e7fd8870c345a9affdf2884f6040b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746299368652
+status: 3
+tags: []
+user_id: giorg

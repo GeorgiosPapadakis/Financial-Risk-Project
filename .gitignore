@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# MLflow artifacts (optional – only if you don’t want to version logs and artifacts)
+#mlruns/
+
+# Models (optional – only if models are too large or unnecessary in repo)
+#*.joblib
+#*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log

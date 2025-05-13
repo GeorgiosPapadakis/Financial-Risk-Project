@@ -1,0 +1,47 @@
+artifact_path: random_forest_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 50168339
+model_uuid: 0a5a1a9d671d4567839c41718051f588
+prompts: null
+run_id: 1afbba64ad6d491d9da0ed9b86f447fa
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "LIMIT_BAL", "required": true}, {"type": "long",
+    "name": "SEX", "required": true}, {"type": "long", "name": "EDUCATION", "required":
+    true}, {"type": "long", "name": "MARRIAGE", "required": true}, {"type": "long",
+    "name": "AGE", "required": true}, {"type": "long", "name": "PAY_0", "required":
+    true}, {"type": "long", "name": "PAY_2", "required": true}, {"type": "long", "name":
+    "PAY_3", "required": true}, {"type": "long", "name": "PAY_4", "required": true},
+    {"type": "long", "name": "PAY_5", "required": true}, {"type": "long", "name":
+    "PAY_6", "required": true}, {"type": "double", "name": "BILL_AMT1", "required":
+    true}, {"type": "double", "name": "BILL_AMT2", "required": true}, {"type": "double",
+    "name": "BILL_AMT3", "required": true}, {"type": "double", "name": "BILL_AMT4",
+    "required": true}, {"type": "double", "name": "BILL_AMT5", "required": true},
+    {"type": "double", "name": "BILL_AMT6", "required": true}, {"type": "double",
+    "name": "PAY_AMT1", "required": true}, {"type": "double", "name": "PAY_AMT2",
+    "required": true}, {"type": "double", "name": "PAY_AMT3", "required": true}, {"type":
+    "double", "name": "PAY_AMT4", "required": true}, {"type": "double", "name": "PAY_AMT5",
+    "required": true}, {"type": "double", "name": "PAY_AMT6", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-03 19:17:43.989846'

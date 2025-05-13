@@ -1,0 +1,18 @@
+# Ignore the following to make the image lighter
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+
+# Dockerfiles
+Dockerfile*
